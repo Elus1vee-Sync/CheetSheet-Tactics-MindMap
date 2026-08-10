@@ -32,3 +32,11 @@ non_existing_directory/../../../etc/passwd/./././<SNIP>././././
 
 > PHP versions prior to 5.5 were vulnerable to null byte injection, meaning that appending a null byte (%00) to the end of a string would terminate it, causing anything following the null byte to be ignored. This is due to how strings are stored in low-level memory, where they require a null byte to mark the end of the string—a convention found in languages ​​such as Assembly, C, and C++.
 
+
+```
+/etc/passwd%00
+```
+
+```
+../../../etc/passwd%00
+```
