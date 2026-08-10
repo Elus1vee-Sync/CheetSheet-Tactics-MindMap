@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Type-CheatSheet-111827?style=for-the-badge&logoColor=00FFFF">
 </p>
 
-
+## Linux
 
 ```
 ../../../../../../../../../etc/passwd
@@ -56,6 +56,8 @@
 
 
 --------------------------------------------------------------------------------------------------------
+
+## Windows
 
 ```
 ..\..\..\..\..\..\..\windows\win.ini
