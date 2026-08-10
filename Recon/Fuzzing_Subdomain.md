@@ -1,4 +1,4 @@
-<h1 align="center">Subdomain Fuzzing Cheat Sheet </h1>
+<h1 align="center">DNS Fuzzing Cheat Sheet </h1>
 
 <p align="center">
   Comprehensive reference guide for DNS enumeration, subdomain brute-forcing, prioritization strategies, and execution commands.
