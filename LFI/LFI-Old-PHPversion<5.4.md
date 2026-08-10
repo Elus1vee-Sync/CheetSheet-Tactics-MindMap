@@ -26,3 +26,9 @@ We don't have to manually type ./ 2048 times (a total of 4096 characters).
 echo -n "non_existing_directory/../../../etc/passwd/" && for i in {1..2048}; do echo -n "./"; done
 non_existing_directory/../../../etc/passwd/./././<SNIP>././././
 ```
+
+
+## Null Bytes
+
+> Las versiones de PHP anteriores a la 5.5 eran vulnerables a la inyección de bytes nulos (null byte injection), lo que significa que añadir un byte nulo (%00) al final de la cadena la terminaría y no consideraría nada después de él. Esto se debe a cómo se almacenan las cadenas en la memoria de bajo nivel, donde las cadenas en memoria deben usar un byte nulo para indicar el final de la cadena, como se ve en lenguajes como Assembly, C o C++.
+
