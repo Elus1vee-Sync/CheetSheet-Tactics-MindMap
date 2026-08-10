@@ -1,4 +1,4 @@
-<h1 align="center">Local File Inclusion (LFI) Bypass Cheat Sheet</h1>
+<h1 align="center">Local File Inclusion (LFI) OLD PHP Version 5.3/5.4 Cheat Sheet</h1>
 
 <p align="center">
   They only work with PHP versions prior to 5.3/5.4
