@@ -53,7 +53,7 @@ gobuster vhost -u http://IP_O_DOMINIO/ -w /usr/share/seclists/Discovery/DNS/subd
 gobuster vhost -u http://IP_O_DOMINIO/ -w /usr/share/seclists/Discovery/DNS/combined_subdomains.txt --append-domain -t 50
 ```
 
-```
+> 
 Parámetros Clave de Gobuster para VHosts
 vhost: Indica que el ataque va dirigido al servidor web evaluando la cabecera Host en lugar de consultar registros DNS.
 
@@ -62,4 +62,4 @@ vhost: Indica que el ataque va dirigido al servidor web evaluando la cabecera Ho
 -t 50: Controla el número de hilos concurrentes. Es recomendable mantenerlo moderado (entre 30 y 50) para evitar que contramedidas de limitación de tasa (rate limiting) o bloqueos afecten la prueba.
 
 --exclude-length: Útil si el servidor responde con el mismo tamaño predeterminado a cualquier VHost inválido; puedes ocultar esa longitud añadiendo, por ejemplo, --exclude-length 1234.
-```
+> 
