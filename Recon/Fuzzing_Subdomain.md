@@ -13,3 +13,28 @@
 </p>
 
 
+## Gobuster
+
+```
+gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -t 50
+```
+
+```
+gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -t 100
+```
+
+```
+gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/combined_subdomains.txt -t 100
+```
+
+```
+gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -t 100
+```
+
+```
+gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/shubs-subdomains.txt -t 100
+```
+
+```
+gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/dns-Jhaddix.txt -t 100
+```
