@@ -38,3 +38,18 @@ gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/shubs-subdomai
 ```
 gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/dns-Jhaddix.txt -t 100
 ```
+
+## Gobuster - VHOST
+
+```
+gobuster vhost -u http://IP_O_DOMINIO/ -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain -t 50
+```
+
+```
+gobuster vhost -u http://IP_O_DOMINIO/ -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain -t 50
+```
+
+```
+gobuster vhost -u http://IP_O_DOMINIO/ -w /usr/share/seclists/Discovery/DNS/combined_subdomains.txt --append-domain -t 50
+```
+
