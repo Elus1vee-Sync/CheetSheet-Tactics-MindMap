@@ -13,7 +13,7 @@
 </p>
 
 
-## Gobuster
+## Gobuster - DNS
 
 ```
 gobuster dns -d objetivo.com -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -t 50
