@@ -78,3 +78,8 @@ wfuzz -c -w /usr/share/seclists/Discovery/DNS/combined_subdomains.txt -H "Host: 
 ```
 wfuzz -c -w /usr/share/wordlists/SecLists/Discovery/DNS/dns-Jhaddix.txt -H "Host: FUZZ.dominio.com" --hc 404 -t 50 http://IP_DEL_SERVIDOR/
 ```
+
+```
+ffuf -t 100 -w /usr/share/seclists/Discovery/DNS/services-names.txt:FUZZ1 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-50000.txt:FUZZ2 -u http://10.129.23.131 -H "HOST: FUZZ1-FUZZ2.prueba.local" -fs 251273
+```
+> Double fuzzing: for each service name from FUZZ1, FUZZ2 will combine it with subdomains.
